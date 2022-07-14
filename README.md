@@ -17,4 +17,4 @@ source start.sh
 
 
 Download the folder for classification:
-[ESG-BERT]https://drive.google.com/drive/folders/1N7Biv16TCoK3LTFYihSPwHU6ZNrM6rvn?usp=sharing
+https://drive.google.com/drive/folders/1N7Biv16TCoK3LTFYihSPwHU6ZNrM6rvn?usp=sharing
