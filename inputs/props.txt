@@ -1,0 +1,1 @@
+scope,footprint,emissions,neutrality,
