@@ -14,17 +14,7 @@ source install.sh
 source start.sh
 ```
 
-    
 
 
-
-
-
-
-
-Different environments being used in conda for the project: 
-
-- esg-bert: classifier
-- relation-extraction: re
-- knowledge-graph: kg
-- table-detection: table
+Download the folder for classification:
+[ESG-BERT]https://drive.google.com/drive/folders/1N7Biv16TCoK3LTFYihSPwHU6ZNrM6rvn?usp=sharing
