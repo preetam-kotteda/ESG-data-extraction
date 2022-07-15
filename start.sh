@@ -1,4 +1,4 @@
-eval "$(conda shell.bash hook)"
+# eval "$(conda shell.bash hook)"
 cd esg-bert
 conda activate ESG
 python3 prediction.py ../inputs/corpus.txt

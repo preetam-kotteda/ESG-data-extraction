@@ -1,47 +1,17 @@
-,sentence,class_num,class_name,subject,relation,object,relevant
+,sentence,class_num,class_name,relation,relevant
 0,"Socgen reduced Carbon footprint in 2018.
-",25,GHG_Emissions,Socgen,reduced Carbon footprint in,2018,1
-1,"Socgen reduced Carbon footprint in 2018.
-",25,GHG_Emissions,Socgen,reduced in,2018,1
-2,"Socgen reduced Carbon footprint in 2018.
-",25,GHG_Emissions,Socgen,reduced,Carbon footprint,1
-3,"Gender diversity is maintained in Socgen. 
-",8,Employee_Engagement_Inclusion_And_Diversity,Gender diversity,is maintained in,Socgen,0
-4,"Gender diversity is maintained in Socgen. 
-",8,Employee_Engagement_Inclusion_And_Diversity,Gender diversity,is,maintained,0
-5,"Socgen is taking steps to counter water pollution.
-",20,Water_And_Wastewater_Management,steps,counter,water pollution,0
-6,"Socgen is taking steps to counter water pollution.
-",20,Water_And_Wastewater_Management,Socgen,is taking,steps,0
-7,"Google plans to increase its workforce by 25% by 2030.
-",8,Employee_Engagement_Inclusion_And_Diversity,Google,plans,increase by 2030,0
-8,"Google plans to increase its workforce by 25% by 2030.
-",8,Employee_Engagement_Inclusion_And_Diversity,Google,increase by,25 %,0
-9,"Google plans to increase its workforce by 25% by 2030.
-",8,Employee_Engagement_Inclusion_And_Diversity,Google,increase by,2030,0
-10,"Google plans to increase its workforce by 25% by 2030.
-",8,Employee_Engagement_Inclusion_And_Diversity,Google,plans,increase by 25 %,0
-11,"Google plans to increase its workforce by 25% by 2030.
-",8,Employee_Engagement_Inclusion_And_Diversity,Google,plans,increase by 25 % by 2030,0
-12,"Google plans to increase its workforce by 25% by 2030.
-",8,Employee_Engagement_Inclusion_And_Diversity,Google,plans,increase,0
-13,"Google plans to increase its workforce by 25% by 2030.
-",8,Employee_Engagement_Inclusion_And_Diversity,Google,plans,to increase,0
-14,"Google plans to increase its workforce by 25% by 2030.
-",8,Employee_Engagement_Inclusion_And_Diversity,Google,plans,to increase by 2030,0
-15,"Google plans to increase its workforce by 25% by 2030.
-",8,Employee_Engagement_Inclusion_And_Diversity,Google,plans,to increase by 25 % by 2030,0
-16,"Google plans to increase its workforce by 25% by 2030.
-",8,Employee_Engagement_Inclusion_And_Diversity,Google,plans,to increase by 25 %,0
-17,"Google plans to increase its workforce by 25% by 2030.
-",8,Employee_Engagement_Inclusion_And_Diversity,Google,increase,its workforce,0
-18,"Texas Instruments will make environment friendly chips this year.
-",26,Outlier,Texas Instruments,will make environment chips at_time,year,0
-19,"Texas Instruments will make environment friendly chips this year.
-",26,Outlier,Texas Instruments,will make at_time,year,0
-20,"Socgen is recruiting for their GHG program.
-",25,GHG_Emissions,Socgen,is recruiting for,their GHG program,0
-21,"Socgen reduced scope 1 emissions by 14%.
-",25,GHG_Emissions,Socgen,reduced by,14 %,1
-22,"Socgen reduced scope 1 emissions by 14%.
-",25,GHG_Emissions,Socgen,reduced,scope 1 emissions,1
+",25,GHG_Emissions,reduced,1
+1,"Gender diversity is maintained in Socgen. 
+",8,Employee_Engagement_Inclusion_And_Diversity,"is maintained in,is",0
+2,"Socgen is taking steps to counter water pollution.
+",20,Water_And_Wastewater_Management,"counter,is taking",0
+3,"Google plans to increase its workforce by 25% by 2030.
+",8,Employee_Engagement_Inclusion_And_Diversity,"plans,increase by,increase by,plans,plans,plans,plans,plans,plans,plans,increase",0
+4,"Texas Instruments will make environment friendly chips this year.
+",26,Outlier,"will make environment chips at_time,will make at_time",0
+5,"Socgen is recruiting for their GHG program.
+",25,GHG_Emissions,is recruiting for,0
+6,"Socgen reduced scope 1 emissions by 14%.
+",25,GHG_Emissions,reduced,1
+7,"Socgen reduced scope 1 emissions by 80 million tons in 2025.
+",25,GHG_Emissions,reduced,1

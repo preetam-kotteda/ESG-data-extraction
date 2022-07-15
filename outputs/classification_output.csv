@@ -1,19 +1,21 @@
-sentence,class_num,class_name
+sentence,class_num,class_name
 "Carbon emissions are down by 20%.
-",25,GHG_Emissions
+",25,GHG_Emissions
 "Socgen reduced Carbon footprint in 2018.
-",25,GHG_Emissions
+",25,GHG_Emissions
 "Gender diversity is maintained in Socgen. 
-",8,Employee_Engagement_Inclusion_And_Diversity
+",8,Employee_Engagement_Inclusion_And_Diversity
 "Socgen is taking steps to counter water pollution.
-",20,Water_And_Wastewater_Management
+",20,Water_And_Wastewater_Management
 "Google plans to increase its workforce by 25% by 2030.
-",8,Employee_Engagement_Inclusion_And_Diversity
+",8,Employee_Engagement_Inclusion_And_Diversity
 "Texas Instruments will make environment friendly chips this year.
-",26,Outlier
+",26,Outlier
 "Socgen is recruiting for their GHG program.
-",25,GHG_Emissions
+",25,GHG_Emissions
 "Socgen aim for net zero carbon footprint by 2024.
-",25,GHG_Emissions
+",25,GHG_Emissions
 "Socgen reduced scope 1 emissions by 14%.
-",25,GHG_Emissions
+",25,GHG_Emissions
+"Socgen reduced scope 1 emissions by 80 million tons in 2025.
+",25,GHG_Emissions

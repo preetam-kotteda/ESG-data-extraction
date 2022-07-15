@@ -20,23 +20,31 @@ with open(input_relations,'r') as f:
     # print(actual_relations)
 for i in range(df.shape[0]):
     if str(df['class_num'][i]) == str(input_class_num):
-        relation = df['relation'][i]
+        relations = df['relation'][i].split(',')
         max_sim = 0
+        max_sim_word = ""
         for actual_relation in actual_relations:
             sim = 0
+            sim_word = ""
             filtered_relation_tokens = []
-            filtered_relation_tokens = list(gensim.utils.tokenize(remove_stopwords(relation),deacc = True))
-            if(len(filtered_relation_tokens) == 0):
-                filtered_relation_tokens.append(str(relation))
+            for relation in relations:
+                filtered_relation_tokens=  filtered_relation_tokens + (list(gensim.utils.tokenize(remove_stopwords(relation),deacc = True)))
+            a = torch.from_numpy(glove[actual_relation]).unsqueeze(0)
             for token in filtered_relation_tokens:
-                a = torch.from_numpy(glove[actual_relation]).unsqueeze(0)
                 try:
                     b = torch.from_numpy(glove[token]).unsqueeze(0)
                 except:
                     continue
-                sim = max(sim,float(torch.cosine_similarity(a,b)[0]))
-            max_sim = max(max_sim,sim)
+                # sim = max(sim,float(torch.cosine_similarity(a,b)[0]))
+                cosine_sim = torch.cosine_similarity(a,b)[0]
+                if sim < float(cosine_sim) :
+                    sim = float(cosine_sim)
+                    sim_word = token
+            if max_sim < sim:
+                max_sim = max(max_sim,sim)
+                max_sim_word = sim_word
             if(max_sim>=0.7):
-                df['relevant'][i] = '1'    
+                df['relevant'][i] = '1'
+                df['relation'][i] = max_sim_word    
 df.to_csv('../outputs/matched_output.csv')
 

@@ -29,8 +29,13 @@ for prop in actual_props:
 for i in range(df.shape[0]):
     if str(df['relevant'][i]) == str(1):
         doc = nlp(df['sentence'][i])
-        for token in doc:
-            if token.lemma_ in actual_props_lemmatized:
-                df['ontology_entry'][i] = str(token.lemma_)
+        for j in range(len(doc)):
+            if ((doc[j].lemma_.lower()) in actual_props_lemmatized) and (df['ontology_entry'][i] == "NULL"):
+                if(doc[j].lemma_.lower() == 'scope'):
+                    df['ontology_entry'][i] = str(doc[j].lemma_) + str(doc[j+1].lemma_)
+                else:
+                    df['ontology_entry'][i] = str(doc[j].lemma_)
+        if df['ontology_entry'][i] == "NULL":
+            df['relevant'][i] = '0'
             # print(token, token.lemma, token.lemma_)
 df.to_csv('../outputs/final_output.csv')
