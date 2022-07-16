@@ -1,0 +1,1 @@
+match (a) -[r] -> () delete a, r
