@@ -1,6 +1,6 @@
 ,sentence,class_num,class_name,relation,relevant,quantity,year,organization,amount
 0,"Socgen reduced Carbon footprint in 2018.
-",25,GHG_Emissions,reduced,1,NULL,2018,Socgen Carbon,NULL
+",25,GHG_Emissions,reduced,1,NULL,2018,Socgen,NULL
 1,"Gender diversity is maintained in Socgen. 
 ",8,Employee_Engagement_Inclusion_And_Diversity,"is maintained in,is",0,NULL,NULL,NULL,NULL
 2,"Socgen is taking steps to counter water pollution.
