@@ -37,6 +37,7 @@ def extract_data(input_corpus,input_relations,input_class_num,input_props):
             if df['ontology_entry'][i] == "NULL":
                 df['relevant'][i] = '0'
                 # print(token, token.lemma, token.lemma_)
+    df = df.loc[lambda df: df['relevant'] == 1]
     df.to_csv('../outputs/final_output.csv')
 
 # extract_data(r"D:\Work\full pipeline\ESG-extraction\inputs\corpus.txt",r"D:\Work\full pipeline\ESG-extraction\inputs\relations.txt","25",r"D:\Work\full pipeline\ESG-extraction\inputs\props.txt")
