@@ -1,13 +1,21 @@
-from fastapi import FastAPI,Form
+from fastapi import FastAPI,Form,Request,status
 from fastapi.middleware.cors import CORSMiddleware
 from typing import Union , List
 from fastapi import FastAPI, File, UploadFile
 import pickle
 from mbem import extract_data
 from db import run_db,creds,authenticate_creds,reset_db
+from fastapi.responses import HTMLResponse
+from fastapi.responses import RedirectResponse
+# from fastapi.staticfiles import StaticFiles
+from fastapi.templating import Jinja2Templates
+
+
 app = FastAPI()
 
 origins = ['https://localhost:3000']
+
+inputs_dir = "..\inputs\\"
 
 app.add_middleware(
     CORSMiddleware,
@@ -17,46 +25,56 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-inputs_dir = "..\inputs\\"
+# app.mount("/static", StaticFiles(directory="static"), name="static")
+templates = Jinja2Templates(directory="templates")
 
 
-@app.get("/")
-def read_root():
-    return {"message":"append /docs to url to view the fastapi interface"}
+# @app.get("/items/{id}", response_class=HTMLResponse)
+# async def read_item(request: Request, id: str):
+#     return templates.TemplateResponse("item.html", {"request": request, "id": id})
 
+@app.get("/",response_class=HTMLResponse)
+def read_root(request:Request):
+    return RedirectResponse(url = "/database-creds/")
 
+# @app.get("/items/", response_class=HTMLResponse)
+# async def read_items():
+#     return index.html
+
+@app.get("/database-creds/")
+def getedentials(request:Request):
+    return templates.TemplateResponse('index.html', context={'request': request})
+
+@app.get("/uploadfiles/")
+def get_upload_files(request:Request):
+    return templates.TemplateResponse('uploadfiles.html', context={'request': request})
 
 @app.post("/database-creds/")
-async def postcredentials(uri:str= Form(),username:str = Form(),password:str = Form()):
+def postcredentials(request:Request,uri:str= Form(),username:str = Form(),password:str = Form()):
     db_creds = authenticate_creds(uri,username,password)
     if db_creds:
         with open(inputs_dir+'creds_data.pkl', 'wb') as outp:
             pickle.dump(db_creds, outp, pickle.HIGHEST_PROTOCOL)
-        return{"username":db_creds.username}
+        return RedirectResponse("/uploadfiles/",status_code=status.HTTP_303_SEE_OTHER)
     else:
-        return {"message":"Invalid creds"}
-
-
-
+        return templates.TemplateResponse('invalidcreds.html',context = {'request':request})
 
 @app.post("/uploadfiles/")
-async def create_upload_files(up_files: List[UploadFile]):
-    if not up_files:
-        return {"message": "No upload file sent"}
+async def create_upload_files(request:Request,files: List[UploadFile]):
+    if not files:
+        return RedirectResponse(url = "/uploadfiles/")
     else:
-        for file in up_files:
+        for file in files:
             try:
                 contents = await file.read()
                 with open(inputs_dir + file.filename, 'wb') as f:
                     f.write(contents)
             except Exception:
-                return {"message": "There was an error uploading the file(s)"}
+                return RedirectResponse(url = "/uploadfiles/")
             finally:
                 await file.close()
 
-    return {"message": f"Successfuly uploaded {[file.filename for file in up_files]}"}
-
-
+    return RedirectResponse("/knowledge-graph/")
 
 
 @app.get("/knowledge-graph/")
@@ -81,7 +99,7 @@ async def get_knowledge_graph():
             return{"message":"Failed to enter data to db"}
     else:
         return{"message":"Please enter valid creds!"}
-    return {"Sucessful knowledge graph!"}
+    return RedirectResponse("https://browser.neo4j.io/?connectURL=neo4j%2Bs%3A%2F%2Fneo4j%406a12d69e.databases.neo4j.io%2F")
 
 
 
