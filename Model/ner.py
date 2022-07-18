@@ -5,7 +5,8 @@ from match import matcher
 
 # input = sys.argv[1]
 def entity_recog(input_corpus,input_relations,input_class_num):
-    df = matcher(input_corpus,input_relations,input_class_num)
+    # df = matcher(input_corpus,input_relations,input_class_num)
+    df = pd.read_csv(r'D:\Work\full pipeline\ESG-extraction\outputs\matched_output.csv')
     print('finished Semantic matching')
     NER = spacy.load("en_core_web_sm")
     # df = df.drop(df.columns[[0]],axis = 1)
