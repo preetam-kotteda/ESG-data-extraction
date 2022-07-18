@@ -21,7 +21,10 @@ input[type=text]:focus, input[type=password]:focus {
 
 hr {
   border: 1px solid #f1f1f1;
-  margin-bottom: 25px;
+  margin-top: 10px;
+  /* margin-bottom: 10px; */
+  margin-left: 50px;
+  margin-right:150px ;
 }
 
 /* Set a style for all buttons */
@@ -50,11 +53,16 @@ button:hover {
 .cancelbtn, .signupbtn {
   float: left;
   width: 50%;
+  filter: alpha(opacity=50);
+  opacity: 0.8;
+  border-radius: 5px;
 }
 
 /* Add padding to container elements */
 .container {
-  padding: 16px;
+  padding-top: 10px;
+  padding-left: 50px;
+  width: 700px;
 }
 
 /* Clear floats */
@@ -64,28 +72,50 @@ button:hover {
   display: table;
 }
 
+.head{
+  font-size:25px;
+  padding-left: 50px;
+  padding-top:20px;
+}
+
+.transparent {
+zoom: 1;
+filter: alpha(opacity=50);
+opacity: 0.7;
+}
 /* Change styles for cancel button and signup button on extra small screens */
 @media screen and (max-width: 300px) {
   .cancelbtn, .signupbtn {
      width: 100%;
   }
 }
+.bg-img {
+  /* The image used */
+  background-image: url('https://images.unsplash.com/photo-1503394186783-bdcdf2f6d0cb?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTgxNzEyMDc&ixlib=rb-1.2.1&q=80');  /* Control the height of the image */
+  /* background-image: url('https://images.unsplash.com/photo-1621989540277-b09866897acb?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTgxNzI1NzQ&ixlib=rb-1.2.1&q=80'); */
+  min-height: 380px;
 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
 </style>
-<body>
-    {% block content %}
-    {% endblock %}
-        <form method="post" style="border:1px solid #ccc" id = "form1">
+<body class="bg-img">
+  <h1 class="head"> Please Enter the Database Credentials </h1>
+  <hr>
+        <form method="post" id = "form1">
             <div class="container">
-
+                <p></p>
                 <label for="uri"><b>URL</b></label>
-                <input type="text" name="uri" value="neo4j+s://6a12d69e.databases.neo4j.io"/>
+                <input class = "transparent" type="text" name="uri" value="neo4j+s://6a12d69e.databases.neo4j.io"/>
 
                 <label for="username"><b>Username</b></label>
-                <input type="text" name="username" value="neo4j"/>
+                <input class = "transparent" type="text" name="username" value="neo4j"/>
 
                 <label for="password"><b>Password</b></label>
-                <input type="password" name="password" value="4ONUII7XO-cUhU7gnncvhf1qPXjGoQV8nm7VjIV2p6U"/>
+                <input class = "transparent" type="password" name="password" value="4ONUII7XO-cUhU7gnncvhf1qPXjGoQV8nm7VjIV2p6U"/>
 
                 <div class="clearfix">
                     <button type="submit" form ="form1" class="signupbtn">Login</button>

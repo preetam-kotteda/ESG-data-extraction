@@ -1,18 +1,134 @@
 <!DOCTYPE html>
 <html>
-<body>
+<style>
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  margin-left: 550px;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  opacity: 0.7;
+}
 
-<h1>The input multiple attribute</h1>
+button:hover {
+  opacity:1;
+}
 
-<p>Try selecting more than one file when browsing for files.</p>
+.head{
+  font-size:25px;
+  padding-left: 480px;
+  padding-top:50px;
+}
+.bg-img {
+  /* The image used */
+  background-image: url('https://images.unsplash.com/photo-1469474968028-56623f02e42e?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTgxNzQ0MjE&ixlib=rb-1.2.1&q=80');
+  /* background-image: url('https://images.unsplash.com/photo-1503394186783-bdcdf2f6d0cb?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTgxNzEyMDc&ixlib=rb-1.2.1&q=80');  Control the height of the image */
+  /* background-image: url('https://images.unsplash.com/photo-1621989540277-b09866897acb?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTgxNzI1NzQ&ixlib=rb-1.2.1&q=80'); */
+   min-height: 380px;
 
-<form action="/uploadfiles/" method="post" enctype="multipart/form-data" id="form1">
-  <label for="files">Select files:</label>
-  <input type="file" id="files" name="files" multiple><br><br>
-</form>
-<div class="clearfix">
-    <button type="submit" form ="form1" class="signupbtn">Create Knowledge Graph</button>
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+/* body{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  min-height: 100vh; 
+   background: #5256ad;
+} */
+.drag-area{
+  border: 2px dashed #fff;
+  height: 300px;
+  width: 400px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 100px ;
+  margin-left:500px;
+}
+.drag-area.active{
+  border: 2px solid #fff;
+}
+.drag-area .icon{
+  font-size: 100px;
+  color: #fff;
+}
+.drag-area header{
+  font-size: 30px;
+  font-weight: 500;
+  color: #fff;
+  margin-left: 80px;
+}
+.drag-area span{
+  font-size: 25px;
+  font-weight: 500;
+  color: #fff;
+  margin: 10px 0 15px 0;
+}
+.drag-area button{
+  padding: 10px 25px;
+  font-size: 13px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  background: #fff;
+  color: #5256ad;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.drag-area img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+</style>
+
+<script src="https://kit.fontawesome.com/8e92e25134.js" crossorigin="anonymous"></script>
+
+
+<body class="bg-img">
+
+<h1 class="head">Please upload the required input files </h1>
+
+<!-- <p>You can select more than one file when browsing for files.</p> -->
+
+
+<div class="drag-area">
+  <div class="icon"><i class="fa-solid fa-file-arrow-up"></i></div>
+  <form action="/uploadfiles/" method="post" enctype="multipart/form-data" id="form1">
+    <header >Upload files</header>
+    <br>
+    <input style="padding-left: 70px;"type="file" name="files" multiple><br><br>
+  </form>
 </div>
+<div class="clearfix">
+  <button type="submit" form ="form1" class="signupbtn">Create Knowledge Graph</button>
+</div>
+
+<!-- <div class="drag-area">
+  <div class="icon"><i class="fas fa-cloud-upload-alt"></i></div>
+  <header>Drag & Drop to Upload File</header>
+  <span>OR</span>
+  <button>Browse File</button>
+  <input type="file" hidden>
+</div> -->
 
 </body>
 </html>

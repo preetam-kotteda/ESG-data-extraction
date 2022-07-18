@@ -1,0 +1,19 @@
+match (a) detach delete(a);LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/preetam-kotteda/ESG-extraction/main/outputs/Test1.csv' AS row
+merge(p:property {name:row.property,amt_aim:coalesce(row.amount_aim,"Unknown"),amt_ach:coalesce(row.amount_achieve,"Unknown"),date_aim:coalesce(row.date_aim,"Unknown"),date_ach:coalesce(row.date_achieve,"Unknown"),rela:coalesce(row.relation, "Unknown"),comp:coalesce(row.org, "Unknown"),unit:coalesce(row.unit, "Unknown"),topic_:coalesce(row.topic, "Unknown"),vert:coalesce(row.vertical, "Unknown")})
+MERGE (c:Company {name: row.org})
+merge(t:topic {name: row.topic,comp: row.org});
+
+match(t:topic),(c:Company)
+where t.comp=c.name
+create(c)-[:has_topic]->(t);
+
+match(t:topic),(p:property)
+where t.comp=p.comp and t.name=p.topic_
+create(t)-[:has_prop]->(p);
+
+create(company:head {name:'Companies'});
+
+match(h:head),(c:Company)
+create(h)-[:includes]->(c);
+
+match(c) return (c)
