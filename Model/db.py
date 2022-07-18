@@ -39,16 +39,7 @@ def run_db(db_creds):
 def reset_db(db_creds):
     driver = GraphDatabase.driver(db_creds.uri, auth=(db_creds.username,db_creds.password))
     def run_code(tx):
-        with open("../neofiles/reset1.txt",'r') as f:
-            query = ""
-            while True:
-                line = f.readline() 
-                if not line:
-                    break
-                query = query + line
-            tx.run(query)
-
-        with open("../neofiles/reset2.txt",'r') as f:
+        with open("../neofiles/reset.txt",'r') as f:
             query = ""
             while True:
                 line = f.readline() 

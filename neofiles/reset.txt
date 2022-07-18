@@ -1,0 +1,1 @@
+match (a) detach delete(a)
