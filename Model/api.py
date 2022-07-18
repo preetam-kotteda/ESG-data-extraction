@@ -1,3 +1,4 @@
+from numpy import extract
 from fastapi import FastAPI,Form,Request,status
 from fastapi.middleware.cors import CORSMiddleware
 from typing import Union , List
