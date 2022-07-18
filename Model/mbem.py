@@ -11,10 +11,10 @@ def extract_data(input_corpus,input_relations,input_class_num,input_props):
     nlp = spacy.load("en_core_web_sm")
     # input_csv = sys.argv[1]
     # input_props = sys.argv[2]
-    df = entity_recog(input_corpus,input_relations,input_class_num)
+    # df = entity_recog(input_corpus,input_relations,input_class_num)
     print('finished NER')
     # df = df.drop(df.columns[[0]],axis = 1)
-    # df = pd.read_csv(r"D:\Work\full pipeline\ESG-extraction\outputs\ner_output.csv")
+    df = pd.read_csv(r"D:\Work\full pipeline\ESG-extraction\outputs\ner_output.csv")
     df['ontology_entry'] = 'NULL'
 
     with open(input_props,'r') as f:
