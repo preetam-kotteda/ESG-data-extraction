@@ -107,7 +107,7 @@ async def get_knowledge_graph():
             return{"message":"Failed to enter data to db"}
     else:
         return{"message":"Please enter valid creds!"}
-    return RedirectResponse("https://browser.neo4j.io/?connectURL=neo4j%2Bs%3A%2F%2Fneo4j%406a12d69e.databases.neo4j.io%2F")
+    return RedirectResponse(r"https://browser.neo4j.io/?connectURL=neo4j%2Bs%3A%2F%2Fneo4j%406a12d69e.databases.neo4j.io%2F")
 
 
 
