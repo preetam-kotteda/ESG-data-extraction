@@ -86,7 +86,7 @@ async def create_upload_files(request:Request,files: List[UploadFile]):
 @app.get("/knowledge-graph/")
 async def get_knowledge_graph():
     try:
-        # extract_data(inputs_dir+"corpus.txt",inputs_dir+"relations.txt","25",inputs_dir+"props.txt")
+        extract_data(inputs_dir+"corpus.txt",inputs_dir+"relations.txt","25",inputs_dir+"props.txt")
         print("extracted data")
     except:
         return {"message":"Failed in running model"}
