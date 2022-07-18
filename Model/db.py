@@ -68,7 +68,7 @@ def reset_db(db_creds):
 #     db_creds = pickle.load(inp)
 # run_db(db_creds)
 PATH_OF_GIT_REPO = r'D:\Work\full pipeline\ESG-extraction'
-COMMIT_MESSAGE = "lastes commit"
+COMMIT_MESSAGE = "lastes commit 1"
 def git_push():
     try:
         repo = Repo(PATH_OF_GIT_REPO)
