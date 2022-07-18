@@ -1,0 +1,16 @@
+org,relation,property,amount_aim,amount_achieve,date_aim,date_achieve,unit,topic,vertical
+SG,reduce,Scope 1,14,6.3,2025,2022,mil tons,GHG,operations
+SG,reduce,Scope 1,20,11.4,2050,2025,,GHG,supply chain
+SG,reduce,Scope 2,75,80,2025,2022,mil tons,GHG,
+SG,reduce,Scope 2,95,85,2035,2025,mil tons,GHG,
+HM,reduce,Scope 1,28,4.5,2023,2022,mil tons,GHG,
+HM,reduce,Scope 1,38,34.5,2025,2023,mil tons,GHG,
+General Electric,increase,Total Emmisions,17%,42,2050,2022,ton/m3,GHG,
+General Electric,decrease,Scope 1,26,18.9,2030,2022,mil tons,GHG,operations
+General Electric,decrease,Scope 1,32,25.2,2025,2022,mil tons,GHG,supply chain
+General Electric,reduce,Scope 2,105,96.2,2035,2022,mil tons,GHG,supply chain
+General Electric,reduce,Scope 2,100,105.2,2050,2030,mil tons,GHG,supply chain
+Schneider,decrese,Net Carbon F.P,150%,90%,2040,2025,,GHG,operations
+Schneider,decrese,Net Carbon F.P,80%,75%,2025,2022,,GHG,operations
+Amaravati,discharge,Wastewater,50,,2021,2022,KL,W&W,
+Schneider,withdraw,Groundwater,800,,2021,2022,KL,W&W,
