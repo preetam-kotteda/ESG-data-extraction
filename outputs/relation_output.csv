@@ -15,3 +15,105 @@
 ",25,GHG_Emissions,"reduced by,reduced"
 7,"Socgen reduced scope 1 emissions by 80 million tons in 2025.
 ",25,GHG_Emissions,"reduced by,reduced,reduced in"
+8,"Facebook is committed to reaching net zero emissions across our value chain in 2030
+",25,GHG_Emissions,"is,is committed to,is committed to,is,is,is,is,is,is,is committed to,is,is,is committed in,is,is,is committed across,is committed to,is,is,is"
+9,"In 2020, Facebook achieved net zero emissions in our operations by reducing our GHG emissions by 94 percent, compared to 2017 levels
+",25,GHG_Emissions,"achieved,achieved,achieved by,achieved by,achieved In,achieved in"
+10,"Facebook is committed to accelerating the transition to renewable energy as well as supporting renewable energy projects that are on the same electrical grids as our data centers.
+",24,Energy_Management,is
+11,"In 2020, Facebook locally restored nearly as much water as we consumed to the watersheds where we operate.
+",20,Water_And_Wastewater_Management,"restored water,consumed to,restored water,locally restored water,locally restored,restored,restored water In,locally restored,locally restored water In,locally restored,restored,locally restored water,restored water,locally restored,restored water,restored In,locally restored,locally restored water,restored,restored,restored,locally restored In,locally restored,restored,locally restored,restored,locally restored,restored,locally restored,restored,locally restored water"
+12,"Facebook takes a holistic approach to mitigating biodiversity-related impacts in the communities where we build and operate facilities, contributing where possible to support natural habitats and preserve local species.
+",23,Ecological_Impacts,"takes,takes,takes,takes,takes,takes,is in,takes,takes,takes,takes,takes,takes,takes,takes,takes,takes,takes,takes,takes,takes,takes,takes,takes,takes,takes,takes"
+13,"From 2010 to 2019, Google signed 52 agreements totaling nearly 5.5 GW of renewable energy, representing a commitment of approximately $4 billion through 2034.
+",24,Energy_Management,"signed,signed From,signed"
+14,"Google has been carbon neutral since 2007.
+",26,Outlier,"has,has"
+15,"In 2019, Google announced their 1st renewable energy deal in Asia. 
+",24,Energy_Management,"announced,announced In,announced,is in,announced,announced,announced,announced,announced,announced"
+16,"Intel estimates that their water conservation methods have saved 44 billion gallons of water over the past decade. 
+",20,Water_And_Wastewater_Management,"saved,saved,saved over"
+17,"For over two decades, Intel has set aggressive green- house gas (GHG) reduction goals to conserve energy and minimize air emissions
+",21,Air_Quality,"has set GHG reduction goals For,conserve,has set For,has set,minimize"
+18,"Intel aimed to reduce direct GHG emissions by 10% on a per unit basis by 2020 from 2010 levels.
+",25,GHG_Emissions,"aimed,aimed,reduce,aimed,reduce GHG emissions by,reduce by,reduce,aimed"
+19,"Intel aimed to achieve zero hazardous waste to landfill by 2020.
+",19,Waste_And_Hazardous_Materials_Management,"achieve,achieve"
+20,"Intel aimed to achieve a 90% non-hazardous waste recycle rate by 2020.
+",19,Waste_And_Hazardous_Materials_Management,"achieve,achieve,achieve,achieve"
+21,"Intel achieved its 2020 goal to spend $1 billion annually with diverse-owned suppliers
+",17,Supply_Chain_Management,"spend with,achieved,spend,spend,achieved,achieved,achieved,achieved,achieved,spend with,achieved"
+22,"In FY20 Nvidia set a goal to source 65% of their global electricity use from renewable energy by the end of FY25
+",24,Energy_Management,"set goal to,set In,set to,set goal In,set"
+23,"In FY21, Nvidia sourced renewable energy for 17 locations and obtained 25% of their total electricity use from renewable energy resources.
+",24,Energy_Management,"sourced In,sourced energy In,obtained from,sourced,obtained,obtained,sourced energy for,obtained,sourced for,sourced,obtained from"
+24,"In 2021, Nvidia will expand its scope 3 emissions inventory to include all relevant sources, such as manufacturing supply chain and downstream product use and disposal.
+",15,Product_Design_And_Lifecycle_Management,"will expand,will expand In"
+25,"Nvidia aims to maintain a waste-to-landfill diversion rate of 80% or greater each year at their Silicon Valley headquarters
+",19,Waste_And_Hazardous_Materials_Management,"maintain,maintain,aims,maintain waste diversion rate at,aims,aims,aims,maintain,maintain,maintain at"
+26,"Apple aims to achieve carbon neutrality for their entire carbon footprint by 2030, and reach their science-based emissions reduction target
+",25,GHG_Emissions,"achieve,reach,achieve carbon neutrality for,achieve carbon neutrality for,reach,reach,achieve carbon neutrality by"
+27,"Apple aims to create products with net zero carbon impact by 2030
+",15,Product_Design_And_Lifecycle_Management,"is with,aims,create,create,aims,create,create,create"
+28,"Apple has been carbon neutral for corporate operations since April 2020
+",3,Business_Model_Resilience,"has,has,has,has,has,has"
+29,"100+ suppliers committed to 100% renewable energy
+",24,Energy_Management,"committed to,committed to"
+30,"Switching to the Apple M1 chip for Mac mini reduced the energy needed to use the device and drove down the product’s carbon footprint by 34 percent.
+",24,Energy_Management,’s
+31,"By switching to recycled and hydro-smelted aluminum, the carbon emissions associated with aluminum in Apple have decreased by 72 percent since 2015.
+",25,GHG_Emissions,"associated with,associated By,associated By,associated By,is in,associated with"
+32,"Accenture aims to achieve 50% women and 50% male in the workforce by 2025
+",8,Employee_Engagement_Inclusion_And_Diversity,"workforce,achieve"
+33,"Accenture aims at 100% renewable energy by 2023
+",24,Energy_Management,"aims at,aims by,aims at"
+34,"Accenture requires 90% of their key suppliers to disclose their environment targets and actions to reduce emissions by 2025. 
+",17,Supply_Chain_Management,"requires,disclose,requires,requires,requires,requires"
+35,"Accenture aims to reduce absolute GHG emissions by 11%
+",25,GHG_Emissions,"reduce GHG emissions by,aims,reduce by,aims,aims,aims,reduce,reduce"
+36,"Accenture aims to reduce Scope 1 and Scope 2 GHG emissions by 65%
+",25,GHG_Emissions,"aims,aims,reduce,aims,reduce by,aims"
+37,"Accenture aims to reduce Scope 1, 2 and 3 emissions per unit of revenue intensity by 40% against their 2016 baseline. 
+",25,GHG_Emissions,"aims,reduce against,aims,aims,reduce by,aims,aims,reduce,aims,aims,aims"
+38,"Adobe aims at 75% renewable electricity online by end of FY22
+",24,Energy_Management,"aims at,aims by,aims at,aims by"
+39,"Amazon have launched the Climate Pledge fund, a $2 billion investment program to support the development of sustainable and decarbonizing technologies and services. 
+",13,Physical_Impacts_Of_Climate_Change,"have launched,support,have launched,support,support"
+40,"Amazon has delivered more than 20 million packages to customers in electric delivery vehicles across North America and Europe in 2020
+",15,Product_Design_And_Lifecycle_Management,"has delivered to,has delivered to,has delivered to,is in,has delivered to,has delivered to,has delivered in,has delivered to"
+41,"Amazon became the world’s largest corporate purchaser of renewable energy and reached 65% renewable energy across our business
+",24,Energy_Management,"became,became,reached,became,became,became,’s,became,reached across,became,became,became,became,became,became,reached"
+42,"Amazon aims to power their operations with 100% renewable energy by 2025. 
+",24,Energy_Management,"aims,aims,aims,power with,aims,aims,aims,aims,aims,aims,power by,aims,power,power with,aims,aims"
+43,"Amazon aims to make 50% of all shipments net-zero carbon by 2030
+",24,Energy_Management,"aims,make,aims"
+44,"Amazon aims at reaching net-zero carbon emissions across their operations by 2040
+",25,GHG_Emissions,"aims by,aims at,aims at,aims at,aims at"
+45,"Amazon will deploy 100,000 custom electric delivery vehicles by 2030
+",24,Energy_Management,"will deploy,will deploy"
+46,"Amazon will invest $100 million in reforestation projects and climate mitigation solutions
+",23,Ecological_Impacts,"will invest,will invest"
+47,"Schneider Electric will become carbon neutral in their operations by 2025
+",24,Energy_Management,"is in,carbon neutral in,will become,carbon in,will become,will become,will become,will become by"
+48,"Schneider Electric is on track to meet their validated science based target by 2030
+",12,Management_Of_Legal_And_Regulatory_Framework,"is on,is on,is on,is on"
+49,"Schneider Electric is engaging with suppliers towards a net-zero supply chain by 2050 
+",17,Supply_Chain_Management,"is engaging towards,is engaging with,is engaging by"
+50,"Schneider Electric have achieved 80% renewable energy in 2020. 
+",24,Energy_Management,"have achieved,have achieved in,have achieved"
+51,"Texas Instruments aims to reduce absolute scope 1 and 2 GHG emissions by 15% from a 2015 baseline by the end of 2020.
+",25,GHG_Emissions,"aims,reduce by,reduce by,aims,aims,aims,aims,reduce from,aims,aims,end,aims,reduce,aims,aims,end,aims,aims,aims,aims,reduce by,aims,aims,aims,aims,aims,aims,reduce,aims,aims,aims,aims"
+52,"Texas Instruments aims to reduce absolute scope 1 and 2 GHG emissions by 25% from a 2015 baseline by the end of 2025.
+",25,GHG_Emissions,"aims,aims,reduce by,aims,aims,reduce by,aims,aims,aims,reduce by,aims,reduce from,aims,aims,end,aims,reduce,aims,aims,end,aims,aims,aims,aims,aims,aims,aims,aims,aims,aims,reduce,aims"
+53,"Since 2005, Texas Instruments has reduced per-chip GHG intensity by 69%.
+",25,GHG_Emissions,"has reduced,has reduced Since,has reduced by"
+54,"Texas Instruments aims to reduce energy intensity levels per chip at U.S. manufacturing sites 25% from a 2010 baseline, with a stretch goal of 50%, to achieve the U.S. Department of Energy’s Better Buildings, Better Plants program goal by the end of 2020.
+",24,Energy_Management,"aims,reduce,goal by,of,aims,reduce,aims,is with,reduce at,aims,reduce energy intensity levels at,’s Buildings is"
+55,"Texas Instruments aims to reduce water use worldwide by 2.6%.
+",20,Water_And_Wastewater_Management,"aims,aims,aims,reduce water use worldwide by,reduce,aims,reduce by,aims,aims,reduce water use by,reduce worldwide,reduce worldwide by,aims,aims"
+56,"HP aims to achieve net zero GHG emissions across its value chain by 2040, beginning with their Supplies business achieving carbon neutrality by 2030.
+",25,GHG_Emissions,"achieving carbon neutrality by,achieving,achieve,achieve"
+57,"HP aims to reduce its value chain GHG emissions 50% by 2030.
+",25,GHG_Emissions,"aims,aims,aims,reduce,reduce by,aims"
+58,"HP will reach carbon neutrality in its operations by 2025.
+",25,GHG_Emissions,"will reach in,will reach by,will reach,will reach carbon neutrality in,will reach carbon neutrality by"

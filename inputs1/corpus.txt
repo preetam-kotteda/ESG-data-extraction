@@ -8,3 +8,64 @@ Socgen is recruiting for their GHG program.
 Socgen aim for net zero carbon footprint by 2024.
 Socgen reduced scope 1 emissions by 14%.
 Socgen reduced scope 1 emissions by 80 million tons in 2025.
+Facebook is committed to reaching net zero emissions across our value chain in 2030
+In 2020, Facebook achieved net zero emissions in our operations by reducing our GHG emissions by 94 percent, compared to 2017 levels
+Facebook is committed to accelerating the transition to renewable energy as well as supporting renewable energy projects that are on the same electrical grids as our data centers.
+In 2020, Facebook locally restored nearly as much water as we consumed to the watersheds where we operate.
+Facebook takes a holistic approach to mitigating biodiversity-related impacts in the communities where we build and operate facilities, contributing where possible to support natural habitats and preserve local species.
+From 2010 to 2019, Google signed 52 agreements totaling nearly 5.5 GW of renewable energy, representing a commitment of approximately $4 billion through 2034.
+Google has been carbon neutral since 2007.
+In 2019, Google announced their 1st renewable energy deal in Asia. 
+Intel estimates that their water conservation methods have saved 44 billion gallons of water over the past decade. 
+For over two decades, Intel has set aggressive green- house gas (GHG) reduction goals to conserve energy and minimize air emissions
+Intel aimed to reduce direct GHG emissions by 10% on a per unit basis by 2020 from 2010 levels.
+The combined Scope 1 (direct) and Scope 2 (indirect) GHG emissions of Intel decreased by 13% (intensity) but increased by 8% (absolute) from 2018 to 2019 due to manufacturing growth.
+Intel aimed to achieve zero hazardous waste to landfill by 2020.
+Intel aimed to achieve a 90% non-hazardous waste recycle rate by 2020.
+Intel achieved its 2020 goal to spend $1 billion annually with diverse-owned suppliers
+In FY20 Nvidia set a goal to source 65% of their global electricity use from renewable energy by the end of FY25
+In FY21, Nvidia sourced renewable energy for 17 locations and obtained 25% of their total electricity use from renewable energy resources.
+In 2021, Nvidia will expand its scope 3 emissions inventory to include all relevant sources, such as manufacturing supply chain and downstream product use and disposal.
+Nvidia aims to maintain a waste-to-landfill diversion rate of 80% or greater each year at their Silicon Valley headquarters
+Apple aims to achieve carbon neutrality for their entire carbon footprint by 2030, and reach their science-based emissions reduction target
+Apple aims to create products with net zero carbon impact by 2030
+Apple has been carbon neutral for corporate operations since April 2020
+Apple has avoided 15M metric tons of emissions due to carbon reduction initiatives
+Restore fund will invest up to $200M in natural climate solutions. 
+100+ suppliers committed to 100% renewable energy
+Since 2011, the scopes 1 and 2 emissions of Apple have declined by 73 percent
+Switching to the Apple M1 chip for Mac mini reduced the energy needed to use the device and drove down the product’s carbon footprint by 34 percent.
+By switching to recycled and hydro-smelted aluminum, the carbon emissions associated with aluminum in Apple have decreased by 72 percent since 2015.
+Accenture aims to achieve 50% women and 50% male in the workforce by 2025
+Accenture aims at 100% renewable energy by 2023
+Accenture requires 90% of their key suppliers to disclose their environment targets and actions to reduce emissions by 2025. 
+Accenture aims to reduce absolute GHG emissions by 11%
+Accenture aims to reduce Scope 1 and Scope 2 GHG emissions by 65%
+Accenture aims to reduce Scope 1, 2 and 3 emissions per unit of revenue intensity by 40% against their 2016 baseline. 
+Adobe aims at 75% renewable electricity online by end of FY22
+More than 80% of Adobe office spaces around the world are LEED or  green building certified. 
+Amazon have launched the Climate Pledge fund, a $2 billion investment program to support the development of sustainable and decarbonizing technologies and services. 
+Amazon has delivered more than 20 million packages to customers in electric delivery vehicles across North America and Europe in 2020
+Amazon became the world’s largest corporate purchaser of renewable energy and reached 65% renewable energy across our business
+Amazon aims to power their operations with 100% renewable energy by 2025. 
+Amazon aims to make 50% of all shipments net-zero carbon by 2030
+Amazon aims at reaching net-zero carbon emissions across their operations by 2040
+Amazon will deploy 100,000 custom electric delivery vehicles by 2030
+Amazon will invest $100 million in reforestation projects and climate mitigation solutions
+Schneider Electric will become carbon neutral in their operations by 2025
+Schneider Electric is on track to meet their validated science based target by 2030
+All of the products manufactured by Schneider Electric will be carbon neutral by 2040
+Schneider Electric is engaging with suppliers towards a net-zero supply chain by 2050 
+Schneider Electric have achieved 80% renewable energy in 2020. 
+Texas Instruments aims to reduce absolute scope 1 and 2 GHG emissions by 15% from a 2015 baseline by the end of 2020.
+Texas Instruments aims to reduce absolute scope 1 and 2 GHG emissions by 25% from a 2015 baseline by the end of 2025.
+Since 2005, Texas Instruments has reduced per-chip GHG intensity by 69%.
+Texas Instruments aims to reduce energy intensity levels per chip at U.S. manufacturing sites 25% from a 2010 baseline, with a stretch goal of 50%, to achieve the U.S. Department of Energy’s Better Buildings, Better Plants program goal by the end of 2020.
+Texas Instruments aims to reduce water use worldwide by 2.6%.
+HP aims to achieve net zero GHG emissions across its value chain by 2040, beginning with their Supplies business achieving carbon neutrality by 2030.
+HP aims to reduce its value chain GHG emissions 50% by 2030.
+HP will reach carbon neutrality in its operations by 2025.
+
+
+    
+

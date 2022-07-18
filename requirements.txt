@@ -16,3 +16,5 @@ uvicorn[standard]
 python-multipart
 
 neo4j
+jinja2
+gitpython

@@ -80,7 +80,7 @@ def predict(input):
     def softmax(x):
         return np.exp(x) / np.sum(np.exp(x), axis=0)
 
-    with open(input,encoding="utf-8") as f:
+    with open(input,encoding='cp1252') as f:
         lines = f.readlines()
     new_lines = []
     for line in lines:
