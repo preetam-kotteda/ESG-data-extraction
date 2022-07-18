@@ -1,4 +1,4 @@
-LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/preetam-kotteda/ESG-extraction/main/outputs/final_output1.csv' AS row
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/preetam-kotteda/ESG-extraction/main/outputs/final_output.csv' AS row
 merge(p:property {name:coalesce(row.ontology_entry,"Unknown"),amount:coalesce(row.amount,"Unknown"),quantity:coalesce(row.quantity,"Unknown"),date:coalesce(row.year,"Unknown"),relation:coalesce(row.relation, "Unknown"),company:coalesce(row.organization, "Unknown"),topic:coalesce(row.class_name, "Unknown")})
 MERGE (c:Company {name: coalesce(row.organization, "Unknown")})
 merge(t:topic {name: row.class_name,comp: coalesce(row.organization, "Unknown")})

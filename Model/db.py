@@ -1,6 +1,7 @@
 from re import L
 from neo4j import GraphDatabase
-
+import pickle
+from git import Repo
 class creds:
     def __init__(self,uri,username,password):
         self.uri = uri
@@ -60,3 +61,18 @@ def reset_db(db_creds):
         session.write_transaction(run_code)
 
     driver.close()
+
+# inputs_dir = "..\inputs\\"
+# db_creds = None
+# with open(inputs_dir+'creds_data.pkl', 'rb') as inp:
+#     db_creds = pickle.load(inp)
+# run_db(db_creds)
+
+def push_to_git():
+    repo = Repo(r'D:\Work\full pipeline\ESG-extraction') 
+    repo.git.add(update=True)
+    repo.index.commit('latest commit')
+    origin = repo.remote('origin')
+    origin.push()
+
+push_to_git()

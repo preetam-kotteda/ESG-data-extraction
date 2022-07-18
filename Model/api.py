@@ -9,7 +9,7 @@ from fastapi.responses import HTMLResponse
 from fastapi.responses import RedirectResponse
 # from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
-
+from git import Repo
 
 app = FastAPI()
 
@@ -74,7 +74,7 @@ async def create_upload_files(request:Request,files: List[UploadFile]):
             finally:
                 await file.close()
 
-    return RedirectResponse("/knowledge-graph/")
+    return RedirectResponse("/knowledge-graph/",status_code=status.HTTP_303_SEE_OTHER)
 
 
 @app.get("/knowledge-graph/")
