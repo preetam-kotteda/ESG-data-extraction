@@ -11,7 +11,7 @@ class creds:
 def authenticate_creds(uri,username,password):
     try:
         driver = GraphDatabase.driver(uri, auth=(username, password))
-        print("connected: {}".format(driver.verify_connectivity()))
+        # print("connected: {}".format(driver.verify_connectivity()))
         driver.close()
         db_creds = creds(uri,username,password)
         return db_creds

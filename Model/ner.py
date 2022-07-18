@@ -6,6 +6,7 @@ from match import matcher
 # input = sys.argv[1]
 def entity_recog(input_corpus,input_relations,input_class_num):
     df = matcher(input_corpus,input_relations,input_class_num)
+    print('finished Semantic matching')
     NER = spacy.load("en_core_web_sm")
     # df = df.drop(df.columns[[0]],axis = 1)
     df['quantity'] = "NULL"

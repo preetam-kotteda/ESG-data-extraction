@@ -12,7 +12,7 @@ properties = {
 
 def relation_extract(input_corpus):
     predict(input_corpus)
-
+    print("Finished classification")
     with StanfordOpenIE(properties=properties) as client:
         df = pd.read_csv("../outputs/classification_output.csv")
         # df_out = pd.DataFrame(columns= ['sentence','class_num','class_name','organization','subject','relation','object','Quantity','Year'])

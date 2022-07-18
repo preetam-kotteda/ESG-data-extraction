@@ -14,6 +14,7 @@ from re_openie import relation_extract
 
 def matcher(input_corpus,input_relations,input_class_num):
     df = relation_extract(input_corpus)
+    print('finished relation extraction')
     glove = api.load('glove-wiki-gigaword-50')
     # df = df.drop(df.columns[[0]],axis = 1)
     df['relevant'] = '0'
