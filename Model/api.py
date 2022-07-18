@@ -29,17 +29,23 @@ app.add_middleware(
 templates = Jinja2Templates(directory="templates")
 
 
-# @app.get("/items/{id}", response_class=HTMLResponse)
-# async def read_item(request: Request, id: str):
-#     return templates.TemplateResponse("item.html", {"request": request, "id": id})
+PATH_OF_GIT_REPO = r'D:\Work\full pipeline\ESG-extraction'
+COMMIT_MESSAGE = "lastest commit"
+def git_push():
+    try:
+        repo = Repo(PATH_OF_GIT_REPO)
+        repo.git.add(all = True)
+        repo.index.commit(COMMIT_MESSAGE)
+        origin = repo.remote(name='origin')
+        origin.push()
+    except:
+        print('Some error occured while pushing the code')  
+
 
 @app.get("/",response_class=HTMLResponse)
 def read_root(request:Request):
     return RedirectResponse(url = "/database-creds/")
 
-# @app.get("/items/", response_class=HTMLResponse)
-# async def read_items():
-#     return index.html
 
 @app.get("/database-creds/")
 def getedentials(request:Request):
@@ -93,6 +99,7 @@ async def get_knowledge_graph():
         return{"message":"Unable to open pkl file"}
     if db_creds:
         try:
+            git_push()
             run_db(db_creds)
             print("Ran db")
         except:
