@@ -67,12 +67,16 @@ def reset_db(db_creds):
 # with open(inputs_dir+'creds_data.pkl', 'rb') as inp:
 #     db_creds = pickle.load(inp)
 # run_db(db_creds)
+PATH_OF_GIT_REPO = r'D:\Work\full pipeline\ESG-extraction'
+COMMIT_MESSAGE = "lastes commit"
+def git_push():
+    try:
+        repo = Repo(PATH_OF_GIT_REPO)
+        repo.git.add(update=True)
+        repo.index.commit(COMMIT_MESSAGE)
+        origin = repo.remote(name='origin')
+        origin.push()
+    except:
+        print('Some error occured while pushing the code')    
 
-def push_to_git():
-    repo = Repo(r'D:\Work\full pipeline\ESG-extraction') 
-    repo.git.add(update=True)
-    repo.index.commit('latest commit')
-    origin = repo.remote('origin')
-    origin.push()
-
-push_to_git()
+git_push()
