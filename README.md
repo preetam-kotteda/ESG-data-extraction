@@ -23,12 +23,12 @@ pip install -r requirements.txt
 
 https://drive.google.com/drive/folders/1N7Biv16TCoK3LTFYihSPwHU6ZNrM6rvn?usp=sharing
 
-
 5. Open localhost and enter the credentials for the database using the following command: 
 
 ```
 cd Model
 uvicorn api:app --reload
+
 ```
 Now your webapplication gets hosted through localhost.
 
@@ -45,5 +45,6 @@ You will be redirected to aura db where you can play with the knowledge-graph us
 6. Deactivate the environment once you are done. 
 ```
 conda deactivate 
+
 ```
 
