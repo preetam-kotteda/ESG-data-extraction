@@ -35,10 +35,10 @@ Now your webapplication gets hosted through localhost.
 Enter your database credentials to enter to your database.
 
 You should be redirected to Uploadfiles route where you need to upload all the input files.
-  Input files:-
-  1.corpus.txt(Should be sentence tokenized)
-  2.relations.txt
-  3.props.txt
+* Input files:-
+ - corpus.txt(Should be sentence tokenized)
+ - relations.txt
+ - props.txt
  
 You will be redirected to aura db where you can play with the knowledge-graph using cypher commands.
 
