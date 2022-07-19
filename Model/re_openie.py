@@ -11,7 +11,7 @@ properties = {
 }
 
 def relation_extract(input_corpus):
-    predict(input_corpus)
+    # predict(input_corpus)
     print("Finished classification")
     with StanfordOpenIE(properties=properties) as client:
         df = pd.read_csv("../outputs/classification_output.csv")
