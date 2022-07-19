@@ -35,7 +35,7 @@ Now your webapplication gets hosted through localhost.
 Enter your database credentials to enter to your database.
 
 You should be redirected to Uploadfiles route where you need to upload all the input files.
-* Input files:-
+Input files:-
  - corpus.txt(Should be sentence tokenized)
  - relations.txt
  - props.txt
