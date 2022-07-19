@@ -100,7 +100,8 @@ async def get_knowledge_graph():
         return{"message":"Unable to open pkl file"}
     if db_creds:
         try:
-            git_push()
+            /* uncomment the below function if you would like to host your final_output.csv in github.You can use any cloud for this purpose*/
+#             git_push()
             run_db(db_creds)
             print("Ran db")
         except:
