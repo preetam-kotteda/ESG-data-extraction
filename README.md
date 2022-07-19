@@ -2,19 +2,48 @@
 
 The project requires the user to have the latest version of conda and python installed in path. 
 
-1. First install the dependencies using the following command. 
+1. Create a new environment in Conda using the command
 
-```
-source install.sh
-```
+'''
+conda create -n <env> python==3.8
 
-2. Run the pipeline using the following command:
+'''
 
-```
-source start.sh
-```
+2.Install the dependencies using the requirements.txt file
 
+'''
+conda activate <env>
+pip install -r requirements.txt
 
+'''
+3.Create an instance in neo4j Aura DB and get your DB credentials and save it in credentials.env 
 
-Download the folder for classification:
+4.Download the folder for the purpose of classification.The below mentioned link contains the pretrained weights of ESG BERT models:
+  Create and folder with the name bert-models in the root directory and place the contents of the drive in it.
+
 https://drive.google.com/drive/folders/1N7Biv16TCoK3LTFYihSPwHU6ZNrM6rvn?usp=sharing
+
+
+5. Open localhost and enter the credentials for the database using the following command: 
+
+'''
+cd Model
+uvicorn api:app --reload
+'''
+Now your webapplication gets hosted through localhost.
+
+Enter your database credentials to enter to your database.
+
+You should be redirected to Uploadfiles route where you need to upload all the input files.
+  Input files:-
+  1.corpus.txt(Should be sentence tokenized)
+  2.relations.txt
+  3.props.txt
+ 
+You will be redirected to aura db where you can play with the knowledge-graph using cypher commands.
+
+6. Deactivate the environment once you are done. 
+'''
+conda deactivate 
+'''
+
