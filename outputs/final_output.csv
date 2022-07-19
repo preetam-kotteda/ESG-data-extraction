@@ -15,13 +15,29 @@
 ",25,GHG_Emissions,reduce,1,65%,,GHG,,Scope1
 37,37,"Accenture aims to reduce Scope 1, 2 and 3 emissions per unit of revenue intensity by 40% against their 2016 baseline. 
 ",25,GHG_Emissions,reduce,1,40%,2016,,3.0,Scope1
-44,44,"Amazon aims at reaching net-zero carbon emissions across their operations by 2040
+43,43,"Adidas aims to reduce absolute GHG emissions by 5%
+",25,GHG_Emissions,reduce,1,5%,,GHG,,emission
+46,46,"Amazon aims at reaching net-zero carbon emissions across their operations by 2040
 ",25,GHG_Emissions,aims,1,,,Amazon,,emission
-51,51,"Texas Instruments aims to reduce absolute scope 1 and 2 GHG emissions by 15% from a 2015 baseline by the end of 2020.
+55,55,"Texas Instruments aims to reduce absolute scope 1 and 2 GHG emissions by 15% from a 2015 baseline by the end of 2020.
 ",25,GHG_Emissions,reduce,1,15%,the end of 2020,Texas Instruments GHG,2015.0,scope1
-52,52,"Texas Instruments aims to reduce absolute scope 1 and 2 GHG emissions by 25% from a 2015 baseline by the end of 2025.
+56,56,"Texas Instruments aims to reduce absolute scope 1 and 2 GHG emissions by 25% from a 2015 baseline by the end of 2025.
 ",25,GHG_Emissions,reduce,1,25%,the end of 2025,Texas Instruments GHG,2015.0,scope1
-56,56,"HP aims to achieve net zero GHG emissions across its value chain by 2040, beginning with their Supplies business achieving carbon neutrality by 2030.
+60,60,"HP aims to achieve net zero GHG emissions across its value chain by 2040, beginning with their Supplies business achieving carbon neutrality by 2030.
 ",25,GHG_Emissions,achieve,1,,2030,GHG,,emission
-57,57,"HP aims to reduce its value chain GHG emissions 50% by 2030.
+61,61,"HP aims to reduce its value chain GHG emissions 50% by 2030.
 ",25,GHG_Emissions,reduce,1,50%,2030,GHG,,emission
+63,63,"Netapp aims to reduce absolute scope 1 GHG emissions by 25% from a 2015 baseline by the end of 2025.
+",25,GHG_Emissions,reduce,1,25%,the end of 2025,GHG,2015.0,scope1
+64,64,"Tesla aims to reduce its value chain GHG emissions 50% by 2030.
+",25,GHG_Emissions,reduce,1,50%,2030,GHG,,emission
+65,65,"Cisco will reduce its GHG emissions by 20% in 2024.
+",25,GHG_Emissions,reduce,1,20%,2024,GHG,,emission
+66,66,"Netapp reduced carbon emissions by 14% in 2021.
+",25,GHG_Emissions,reduced,1,14%,2021,,,emission
+67,67,"Rakuten reduced scope 1 emissions by 6%.
+",25,GHG_Emissions,reduced,1,6%,,,,scope1
+68,68,"Google reduced scope 1 and scope 2 emissions by 10%.
+",25,GHG_Emissions,reduced,1,10%,,,,scope1
+69,69,"Qualcomm aims at reaching net-zero global greenhouse gas emissions for Scopes 1, 2 and 3 by 2040     
+",25,GHG_Emissions,aims,1,,,,2040.0,emission

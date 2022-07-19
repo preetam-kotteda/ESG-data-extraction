@@ -43,13 +43,16 @@ Accenture aims to reduce absolute GHG emissions by 11%
 Accenture aims to reduce Scope 1 and Scope 2 GHG emissions by 65%
 Accenture aims to reduce Scope 1, 2 and 3 emissions per unit of revenue intensity by 40% against their 2016 baseline. 
 Adobe aims at 75% renewable electricity online by end of FY22
+Amazon will reach carbon neutrality in its operations by 2025.
 More than 80% of Adobe office spaces around the world are LEED or  green building certified. 
 Amazon have launched the Climate Pledge fund, a $2 billion investment program to support the development of sustainable and decarbonizing technologies and services. 
 Amazon has delivered more than 20 million packages to customers in electric delivery vehicles across North America and Europe in 2020
 Amazon became the world’s largest corporate purchaser of renewable energy and reached 65% renewable energy across our business
+Adidas aims to reduce absolute GHG emissions by 5%
 Amazon aims to power their operations with 100% renewable energy by 2025. 
 Amazon aims to make 50% of all shipments net-zero carbon by 2030
 Amazon aims at reaching net-zero carbon emissions across their operations by 2040
+Mercedes will reach carbon neutrality in its operations by 2027.
 Amazon will deploy 100,000 custom electric delivery vehicles by 2030
 Amazon will invest $100 million in reforestation projects and climate mitigation solutions
 Schneider Electric will become carbon neutral in their operations by 2025
@@ -57,6 +60,7 @@ Schneider Electric is on track to meet their validated science based target by 2
 All of the products manufactured by Schneider Electric will be carbon neutral by 2040
 Schneider Electric is engaging with suppliers towards a net-zero supply chain by 2050 
 Schneider Electric have achieved 80% renewable energy in 2020. 
+Infosys will reach carbon neutrality in its operations by 2028.
 Texas Instruments aims to reduce absolute scope 1 and 2 GHG emissions by 15% from a 2015 baseline by the end of 2020.
 Texas Instruments aims to reduce absolute scope 1 and 2 GHG emissions by 25% from a 2015 baseline by the end of 2025.
 Since 2005, Texas Instruments has reduced per-chip GHG intensity by 69%.
@@ -65,7 +69,11 @@ Texas Instruments aims to reduce water use worldwide by 2.6%.
 HP aims to achieve net zero GHG emissions across its value chain by 2040, beginning with their Supplies business achieving carbon neutrality by 2030.
 HP aims to reduce its value chain GHG emissions 50% by 2030.
 HP will reach carbon neutrality in its operations by 2025.
-
-
-    
+Netapp aims to reduce absolute scope 1 GHG emissions by 25% from a 2015 baseline by the end of 2025.
+Tesla aims to reduce its value chain GHG emissions 50% by 2030.
+Cisco will reduce its GHG emissions by 20% in 2024.
+Netapp reduced carbon emissions by 14% in 2021.
+Rakuten reduced scope 1 emissions by 6%.
+Google reduced scope 1 and scope 2 emissions by 10%.
+Qualcomm aims at reaching net-zero global greenhouse gas emissions for Scopes 1, 2 and 3 by 2040     
 

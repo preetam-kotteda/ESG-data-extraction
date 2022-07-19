@@ -77,43 +77,65 @@
 ",25,GHG_Emissions,reduce,1,40%,2016,NULL,3
 38,"Adobe aims at 75% renewable electricity online by end of FY22
 ",24,Energy_Management,"aims at,aims by,aims at,aims by",0,NULL,NULL,NULL,NULL
-39,"Amazon have launched the Climate Pledge fund, a $2 billion investment program to support the development of sustainable and decarbonizing technologies and services. 
+39,"Amazon will reach carbon neutrality in its operations by 2025.
+",25,GHG_Emissions,"will reach,will reach carbon neutrality by,will reach in,will reach carbon neutrality in,will reach by",0,NULL,NULL,NULL,NULL
+40,"Amazon have launched the Climate Pledge fund, a $2 billion investment program to support the development of sustainable and decarbonizing technologies and services. 
 ",13,Physical_Impacts_Of_Climate_Change,"have launched,support,have launched,support,support",0,NULL,NULL,NULL,NULL
-40,"Amazon has delivered more than 20 million packages to customers in electric delivery vehicles across North America and Europe in 2020
+41,"Amazon has delivered more than 20 million packages to customers in electric delivery vehicles across North America and Europe in 2020
 ",15,Product_Design_And_Lifecycle_Management,"has delivered to,has delivered to,has delivered to,is in,has delivered to,has delivered to,has delivered in,has delivered to",0,NULL,NULL,NULL,NULL
-41,"Amazon became the world’s largest corporate purchaser of renewable energy and reached 65% renewable energy across our business
+42,"Amazon became the world’s largest corporate purchaser of renewable energy and reached 65% renewable energy across our business
 ",24,Energy_Management,"became,became,reached,became,became,became,’s,became,reached across,became,became,became,became,became,became,reached",0,NULL,NULL,NULL,NULL
-42,"Amazon aims to power their operations with 100% renewable energy by 2025. 
+43,"Adidas aims to reduce absolute GHG emissions by 5%
+",25,GHG_Emissions,reduce,1,5%,NULL,GHG,NULL
+44,"Amazon aims to power their operations with 100% renewable energy by 2025. 
 ",24,Energy_Management,"aims,aims,aims,power with,aims,aims,aims,aims,aims,aims,power by,aims,power,power with,aims,aims",0,NULL,NULL,NULL,NULL
-43,"Amazon aims to make 50% of all shipments net-zero carbon by 2030
+45,"Amazon aims to make 50% of all shipments net-zero carbon by 2030
 ",24,Energy_Management,"aims,make,aims",0,NULL,NULL,NULL,NULL
-44,"Amazon aims at reaching net-zero carbon emissions across their operations by 2040
+46,"Amazon aims at reaching net-zero carbon emissions across their operations by 2040
 ",25,GHG_Emissions,aims,1,NULL,NULL,Amazon,NULL
-45,"Amazon will deploy 100,000 custom electric delivery vehicles by 2030
+47,"Mercedes will reach carbon neutrality in its operations by 2027.
+",25,GHG_Emissions,"will reach carbon neutrality by,will reach carbon neutrality in,will reach in,will reach,will reach by",0,NULL,NULL,NULL,NULL
+48,"Amazon will deploy 100,000 custom electric delivery vehicles by 2030
 ",24,Energy_Management,"will deploy,will deploy",0,NULL,NULL,NULL,NULL
-46,"Amazon will invest $100 million in reforestation projects and climate mitigation solutions
+49,"Amazon will invest $100 million in reforestation projects and climate mitigation solutions
 ",23,Ecological_Impacts,"will invest,will invest",0,NULL,NULL,NULL,NULL
-47,"Schneider Electric will become carbon neutral in their operations by 2025
+50,"Schneider Electric will become carbon neutral in their operations by 2025
 ",24,Energy_Management,"is in,carbon neutral in,will become,carbon in,will become,will become,will become,will become by",0,NULL,NULL,NULL,NULL
-48,"Schneider Electric is on track to meet their validated science based target by 2030
+51,"Schneider Electric is on track to meet their validated science based target by 2030
 ",12,Management_Of_Legal_And_Regulatory_Framework,"is on,is on,is on,is on",0,NULL,NULL,NULL,NULL
-49,"Schneider Electric is engaging with suppliers towards a net-zero supply chain by 2050 
+52,"Schneider Electric is engaging with suppliers towards a net-zero supply chain by 2050 
 ",17,Supply_Chain_Management,"is engaging towards,is engaging with,is engaging by",0,NULL,NULL,NULL,NULL
-50,"Schneider Electric have achieved 80% renewable energy in 2020. 
+53,"Schneider Electric have achieved 80% renewable energy in 2020. 
 ",24,Energy_Management,"have achieved,have achieved in,have achieved",0,NULL,NULL,NULL,NULL
-51,"Texas Instruments aims to reduce absolute scope 1 and 2 GHG emissions by 15% from a 2015 baseline by the end of 2020.
+54,"Infosys will reach carbon neutrality in its operations by 2028.
+",12,Management_Of_Legal_And_Regulatory_Framework,"will reach in,will reach carbon neutrality by,will reach by,will reach,will reach carbon neutrality in",0,NULL,NULL,NULL,NULL
+55,"Texas Instruments aims to reduce absolute scope 1 and 2 GHG emissions by 15% from a 2015 baseline by the end of 2020.
 ",25,GHG_Emissions,reduce,1,15%,the end of 2020,Texas Instruments GHG,2015
-52,"Texas Instruments aims to reduce absolute scope 1 and 2 GHG emissions by 25% from a 2015 baseline by the end of 2025.
+56,"Texas Instruments aims to reduce absolute scope 1 and 2 GHG emissions by 25% from a 2015 baseline by the end of 2025.
 ",25,GHG_Emissions,reduce,1,25%,the end of 2025,Texas Instruments GHG,2015
-53,"Since 2005, Texas Instruments has reduced per-chip GHG intensity by 69%.
+57,"Since 2005, Texas Instruments has reduced per-chip GHG intensity by 69%.
 ",25,GHG_Emissions,reduced,1,69%,2005,Texas Instruments GHG,NULL
-54,"Texas Instruments aims to reduce energy intensity levels per chip at U.S. manufacturing sites 25% from a 2010 baseline, with a stretch goal of 50%, to achieve the U.S. Department of Energy’s Better Buildings, Better Plants program goal by the end of 2020.
+58,"Texas Instruments aims to reduce energy intensity levels per chip at U.S. manufacturing sites 25% from a 2010 baseline, with a stretch goal of 50%, to achieve the U.S. Department of Energy’s Better Buildings, Better Plants program goal by the end of 2020.
 ",24,Energy_Management,"aims,reduce,goal by,of,aims,reduce,aims,is with,reduce at,aims,reduce energy intensity levels at,’s Buildings is",0,NULL,NULL,NULL,NULL
-55,"Texas Instruments aims to reduce water use worldwide by 2.6%.
+59,"Texas Instruments aims to reduce water use worldwide by 2.6%.
 ",20,Water_And_Wastewater_Management,"aims,aims,aims,reduce water use worldwide by,reduce,aims,reduce by,aims,aims,reduce water use by,reduce worldwide,reduce worldwide by,aims,aims",0,NULL,NULL,NULL,NULL
-56,"HP aims to achieve net zero GHG emissions across its value chain by 2040, beginning with their Supplies business achieving carbon neutrality by 2030.
+60,"HP aims to achieve net zero GHG emissions across its value chain by 2040, beginning with their Supplies business achieving carbon neutrality by 2030.
 ",25,GHG_Emissions,achieve,1,NULL,2030,GHG,NULL
-57,"HP aims to reduce its value chain GHG emissions 50% by 2030.
+61,"HP aims to reduce its value chain GHG emissions 50% by 2030.
 ",25,GHG_Emissions,reduce,1,50%,2030,GHG,NULL
-58,"HP will reach carbon neutrality in its operations by 2025.
+62,"HP will reach carbon neutrality in its operations by 2025.
 ",25,GHG_Emissions,"will reach in,will reach by,will reach,will reach carbon neutrality in,will reach carbon neutrality by",0,NULL,NULL,NULL,NULL
+63,"Netapp aims to reduce absolute scope 1 GHG emissions by 25% from a 2015 baseline by the end of 2025.
+",25,GHG_Emissions,reduce,1,25%,the end of 2025,GHG,2015
+64,"Tesla aims to reduce its value chain GHG emissions 50% by 2030.
+",25,GHG_Emissions,reduce,1,50%,2030,GHG,NULL
+65,"Cisco will reduce its GHG emissions by 20% in 2024.
+",25,GHG_Emissions,reduce,1,20%,2024,GHG,NULL
+66,"Netapp reduced carbon emissions by 14% in 2021.
+",25,GHG_Emissions,reduced,1,14%,2021,NULL,NULL
+67,"Rakuten reduced scope 1 emissions by 6%.
+",25,GHG_Emissions,reduced,1,6%,NULL,NULL,NULL
+68,"Google reduced scope 1 and scope 2 emissions by 10%.
+",25,GHG_Emissions,reduced,1,10%,NULL,NULL,NULL
+69,"Qualcomm aims at reaching net-zero global greenhouse gas emissions for Scopes 1, 2 and 3 by 2040     
+",25,GHG_Emissions,aims,1,NULL,NULL,NULL,2040
