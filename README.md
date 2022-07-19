@@ -23,7 +23,9 @@ pip install -r requirements.txt
 
 https://drive.google.com/drive/folders/1N7Biv16TCoK3LTFYihSPwHU6ZNrM6rvn?usp=sharing
 
-5. Open localhost and enter the credentials for the database using the following command: 
+5.Update neo1.txt file from neofiles directory with the cloud link to final_output.csv(automate the process to upload the final_output.csv to your interested cloud platform using a function) that you would be getting in the outputs folder.
+
+6. Open localhost and enter the credentials for the database using the following command: 
 
 ```
 cd Model
@@ -39,10 +41,10 @@ Input files:-
  - corpus.txt(Should be sentence tokenized)
  - relations.txt
  - props.txt
- 
+
 You will be redirected to aura db where you can play with the knowledge-graph using cypher commands.
 
-6. Deactivate the environment once you are done. 
+7. Deactivate the environment once you are done. 
 ```
 conda deactivate 
 
