@@ -6,7 +6,7 @@ SG,reduce,Scope 2,95,85,2035,2025,mil tons,GHG,
 HM,reduce,Scope 1,28,4.5,2023,2022,mil tons,GHG,
 HM,reduce,Scope 1,38,34.5,2025,2023,mil tons,GHG,
 General Electric,increase,Total Emmisions,17%,42,2050,2022,ton/m3,GHG,
-General Electric,decrease,Scope 1,26,18.9,2030,2022,mil tons,GHG,operations
+General Electric,decrease,Scope 1,26,18.9,2030,2027,mil tons,GHG,operations
 General Electric,decrease,Scope 1,32,25.2,2025,2022,mil tons,GHG,supply chain
 General Electric,reduce,Scope 2,105,96.2,2035,2022,mil tons,GHG,supply chain
 General Electric,reduce,Scope 2,100,105.2,2050,2030,mil tons,GHG,supply chain
